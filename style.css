@@ -20,3 +20,8 @@ body * {
 #profile img {
   width: 112px;
 }
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+}
