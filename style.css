@@ -20,16 +20,16 @@ body * {
 
 #profile {
   text-align: center;
-  padding: 24px;
+  padding: 1rem;
 }
 
 #profile img {
-  width: 112px;
+  width: 10rem;
 }
 
 #profile p {
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1rem;
 }
 
 ul {
