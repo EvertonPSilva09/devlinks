@@ -15,7 +15,8 @@ body * {
 
 #container {
   width: 360px;
-  margin: 3rem auto 0px
+  margin: 3rem auto 0px;
+  padding: 0 1.5rem;
 }
 
 #profile {
@@ -62,5 +63,5 @@ ul li a {
 
 ul li a:hover {
   background-color: rgba(255, 255, 255, 0.5);
-  border: 0.1rem solid #ffffff
+  border: 0.1rem solid #ffffff;
 }
