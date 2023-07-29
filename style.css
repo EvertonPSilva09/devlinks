@@ -9,6 +9,11 @@
   --bg-url: url(./assets/bg-mobile.jpg);
 }
 
+.light {
+  --text-color: #000000;
+  --bg-url: url(./assets/bg-mobile-light.jpg);
+}
+
 body{
 background: var(--bg-url) no-repeat top center/cover;
 }
