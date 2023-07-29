@@ -8,12 +8,14 @@
   --text-color: #ffffff;
   --bg-url: url(./assets/bg-mobile.jpg);
   --strooke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
 }
 
 .light {
   --text-color: #000000;
   --bg-url: url(./assets/bg-mobile-light.jpg);
-  --strooke-color: rgba(0, 0, 0, 0.5)
+  --strooke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
 }
 
 body{
@@ -63,8 +65,8 @@ ul li a {
 
   padding: 1rem 2rem;
 
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: --surface-color;
+  border: 1px solid var(--strooke-color);
   border-radius: 0.5rem;
 
   backdrop-filter: blur(0.25rem);
@@ -76,7 +78,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: var(--surface-color);
   border: 0.1rem solid var(--text-color);
 }
 
@@ -100,7 +102,7 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: var(--surface-color);
 }
 
 footer {
