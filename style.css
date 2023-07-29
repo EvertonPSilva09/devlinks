@@ -24,12 +24,12 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 
-body{
-background: var(--bg-url) no-repeat top center/cover;
+body {
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 body * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
 
@@ -100,7 +100,6 @@ ul {
 }
 
 ul li a {
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,8 +114,8 @@ ul li a {
 
   text-decoration: none;
   font-weight: 500;
-  
-  transition: background .3s;
+
+  transition: background 0.3s;
 }
 
 ul li a:hover {
@@ -139,7 +138,7 @@ ul li a:hover {
   justify-content: center;
   padding: 1rem;
 
-  transition: background .3s;
+  transition: background 0.3s;
   border-radius: 50%;
 }
 
