@@ -39,3 +39,20 @@ ul {
   flex-direction: column;
   gap: 1rem;
 }
+
+ul li a {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem 2rem;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0.5rem;
+
+  backdrop-filter: blur(0.25rem);
+
+  text-decoration: none;
+}
