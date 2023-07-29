@@ -61,6 +61,16 @@ body * {
   border-radius: 50%;
 }
 
+#switch span {
+  display: block;
+  width: 4rem;
+  height: 1.5rem;
+  background: var(--surface-color);
+  border: 0.06rem var(--strooke-color);
+  backdrop-filter: blur(0.25rem);
+  border-radius: 624.938rem;
+}
+
 ul {
   list-style: none;
 
