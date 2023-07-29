@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: #ffffff;
+  --bg-url: url(./assets/bg-mobile.jpg);
+}
+
 body{
 background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
