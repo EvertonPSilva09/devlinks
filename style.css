@@ -86,3 +86,7 @@ ul li a:hover {
   transition: background .3s;
   border-radius: 50%;
 }
+
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
