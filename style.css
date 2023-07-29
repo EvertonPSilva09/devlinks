@@ -56,4 +56,11 @@ ul li a {
 
   text-decoration: none;
   font-weight: 500;
+  
+  transition: background .3s;
+}
+
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0.1rem solid #ffffff
 }
